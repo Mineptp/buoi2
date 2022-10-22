@@ -1,0 +1,24 @@
+body {
+  background-color: white;
+}
+
+.intro h2 {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+.content .phone img {
+  width: 150px;
+}
+.content .phone ul {
+  list-style: none;
+}
+.content .phone ul li {
+  margin: 30px 0px;
+}/*# sourceMappingURL=style.css.map */
