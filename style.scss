@@ -1,35 +1,30 @@
-body{
-    background-color: white ;
+body {
+  background-color: white;
 }
-    .intro{
-        h2{
-         font-size: 50px ;
-         text-align: center;
-      font-family: 'Roboto', sans-serif;
-      font-weight: 100;
-        } 
+.intro {
+  h2 {
+    font-size: 50px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+  }
+}
+.content {
+  display: flex;
+  align-items: center;
+  .phone {
+    img {
+      width: 150px;
     }
-        .content{
 
-            display: flex;
-          align-items: center;
-         .phone{
-     img{
-         width: 150px;
-     }
-     ul{
+  }
+  .smallcontent{
+    ul {
         list-style: none;
-     
-     li{
-        margin : 30px 0px;
-     }
-         // .smallcontent{
-         }
-         // }
-         // .App{
-     
-         // }
+  
+        li {
+          margin: 30px 0px;
         }
-     }
-     
-
+      }
+  }
+}
